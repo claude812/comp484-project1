@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<nav class="navbar">
+    <div class="logo">
+
+        <img class ="logoPhoto" src="https://wallpapers.com/images/hd/six-nations-nomcmmr2oubzyg7w.jpg" alt="logo photo">
+
+    </div>
+    <div class="navdiv">
+        <ul>
+            <li><a href="index.html">Home Page</a></li>
+            <li><a href="PlayerRecords.html">Player Records</a></li>
+            <li><a href="TeamStats.html">Team Info</a></li>
+            <li><a href="Fix.html">2026 Fixtures/Results</a></li>
+        </ul>
+    </div>
+</nav>
+<center>
+    <h1> Player Records</h1>
+    <h3>These are the all time records in the main rugby stats.</h3>
+    <aside> A star beside a players name means they are still active</aside>
+</center>
+<h2>Top try scorers 2000-present</h2>
+<div class="Tries">
+<table class="Try" data-section="all time try scorers" itemref="BODvideo"><!-- I used data-* to store information about each player eg. tries and games. -->
+    <!--I used itemprop to label what each piece of information represents g. ireland repersents a team.
+ . -->
+
+    <!-- I used itemref to link the main table of player stats to extra information stored somewhere else on the page eg.
+    the BOD video section
+. -->
+        <thead>
+        <tr>
+            <th scope="col">Position</th>
+            <th scope="col">Player</th>
+            <th scope="col">Country</th>
+            <th scope="col">tries scored</th>
+            <th scope="col">games played</th>
+
+        </tr>
+        </thead>
+        <tbody>
+        <tr data-team="Ireland">
+            <th scope="row">1</th>
+            <th itemprop="name">Brian O'Driscoll</th>
+            <th itemprop="team">Ireland</th>
+            <th data-tries="26">26</th>
+            <th data-games="65">65</th>
+        </tr>
+        <tr  data-team="Wales">
+            <th scope="row">2</th>
+            <th itemprop="name">George North</th>
+            <th itemprop="team">Wales</th>
+            <th data-tries="23">23</th>
+            <th data-games="50">50</th>
+        </tr>
+        <tr  data-team="Wales">
+            <th scope="row">3</th>
+            <th itemprop="name">Shane Williams</th>
+            <th itemprop="team">Wales</th>
+            <th data-tries="22">22</th>
+            <th data-games="37">37</th>
+        </tr>
+        <tr  data-team="France">
+            <th scope="row">4</th>
+             <th itemprop="name">Louis Bielle-Biarrey*</th>
+            <th itemprop="team">France</th>
+            <th data-tries="18">18</th>
+            <th data-games="19">19</th>
+        </tr>
+        <tr  data-team="France">
+            <th scope="row">5</th>
+            <th itemprop="name">Damian Penaud*</th>
+            <th itemprop="team">France</th>
+            <th data-tries="17">17</th>
+            <th data-games="28">28</th>
+        </tr>
+        <tr  data-team="Scotland">
+            <th scope="row">6</th>
+            <th itemprop="name">Stuart Hogg</th>
+            <th itemprop="team">Scotland</th>
+            <th data-tries="16">16</th>
+            <th data-games="55">55</th>
+        </tr>
+        <tr  data-team="Ireland">
+            <th scope="row">7</th>
+            <th itemprop="name">Dan Sheehan*</th>
+            <th itemprop="team">Ireland</th>
+            <th data-tries="15">15</th>
+            <th data-games="19">19</th>
+        </tr>
+
+
+
+
+
+        </tbody>
+    </table>
+        <div class="BOD" id="BODvideo">
+        <h2>Brian O'Driscoll tries:</h2>
+    <video width="600" height="400" controls>
+        <source src="BOD.mp4" type="video/mp4">
+    </video>
+        </div>
+    </div>
+
+    <h2>Most Points Scored</h2>
+    <div class="Points">
+        <table class="PointsT" data-section="all time points scorers">
+            <thead>
+            <tr>
+                <th scope="col">Position</th>
+                <th scope="col">Player</th>
+                <th scope="col">Country</th>
+                <th scope="col">points scored</th>
+                <th scope="col">games played</th>
+
+            </tr>
+            </thead>
+            <tbody>
+            <tr data-team="Ireland">
+                <th scope="row">1</th>
+                <th>Johnny Sexton</th>
+                <th>Ireland</th>
+                <th data-points="566">566</th>
+                <th data-games="60">60</th>
+            </tr>
+            <tr  data-team="Ireland">
+                <th scope="row">2</th>
+                <th>Ronan O'Gara</th>
+                <th>Ireland</th>
+                <th data-points="557">557</th>
+                <th data-games="63">63</th>
+            </tr>
+            <tr  data-team="England">
+                <th scope="row">3</th>
+                <th>Johnny Wilkinson</th>
+                <th>England</th>
+                <th data-points="546">546</th>
+                <th data-games="52">52</th>
+            </tr>
+            <tr  data-team="England">
+                <th scope="row">4</th>
+                <th>Owen Farrell</th>
+                <th>England</th>
+                <th data-points="528">528</th>
+                <th data-games="49">49</th>
+            </tr>
+            <tr  data-team="Wales">
+                <th scope="row">5</th>
+                <th>Stephen Jones</th>
+                <th>Wales</th>
+                <th data-points="467">467</th>
+                <th data-games="55">55</th>
+            </tr>
+            <tr  data-team="Wales">
+                <th scope="row">6</th>
+                <th>Leigh Halfpenny</th>
+                <th>Wales</th>
+                <th data-points="424">424</th>
+                <th data-games="48">48</th>
+            </tr>
+
+            <tr  data-team="Wales">
+                <th scope="row">7</th>
+                <th>Neil Jenkins</th>
+                <th>Ireland</th>
+                <th data-points="406">406</th>
+                <th data-games="49">49</th>
+            </tr>
+
+
+
+
+
+            </tbody>
+        </table>
+        <div class="Sexton">
+            <h2>Johnny Sexton highlights:</h2>
+            <video width="600" height="400" controls>
+                <source src="Sext.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+    <h2>Most Appearances</h2>
+    <div class="Apps">
+        <table class="AppsT" data-section="all time games played">
+            <thead>
+            <tr>
+                <th scope="col">Position</th>
+                <th scope="col">Player</th>
+                <th scope="col">Country</th>
+                <th scope="col">Starts</th>
+                <th scope="col">games played</th>
+
+            </tr>
+            </thead>
+            <tbody>
+            <tr data-team="Italy">
+                <th scope="row">1</th>
+                <th>Sergio Parisse</th>
+                <th>Italy</th>
+                <th data-starts="69">69</th>
+                <th data-games="69">69</th>
+            </tr>
+            <tr  data-team="Ireland">
+                <th scope="row">2</th>
+                <th>Cian Healy</th>
+                <th>Ireland</th>
+                <th data-starts="44">44</th>
+                <th data-games="67">67</th>
+            </tr>
+            <tr  data-team="Wales">
+                <th scope="row">3</th>
+                <th>Alun Wyn Jones</th>
+                <th>Wales</th>
+                <th data-starts="65">65</th>
+                <th data-games="67">67</th>
+            </tr>
+            <tr  data-team="Ireland">
+                <th scope="row">4</th>
+                <th>Brian O'Driscoll</th>
+                <th>Ireland</th>
+                <th data-starts="65">65</th>
+                <th data-games="65">65</th>
+            </tr>
+            <tr  data-team="Ireland">
+                <th scope="row">5</th>
+                <th>Rory Best</th>
+                <th>Ireland</th>
+                <th data-starts="55">5</th>
+                <th data-games="64">64</th>
+            </tr>
+            <tr  data-team="Ireland">
+                <th scope="row">6</th>
+                <th>Ronan O'Gara</th>
+                <th>Ireland</th>
+                <th data-starts="41">41</th>
+                <th data-games="63">63</th>
+            </tr>
+
+            <tr  data-team="Ireland">
+                <th scope="row">7</th>
+                <th>Conor Murray</th>
+                <th>Ireland</th>
+                <th data-starts="47">47</th>
+                <th data-games="62">62</th>
+            </tr>
+
+
+
+
+
+            </tbody>
+        </table>
+        <div class="Parrise">
+            <h2>Parrise:</h2>
+            <video width="600" height="400" controls>
+                <source src="appV.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+
+        <h2>Most Tackles</h2>
+        <div class="Tackles">
+            <table class="TacklesT" data-section="all time tackles made">
+                <thead>
+                <tr>
+                    <th scope="col">Position</th>
+                    <th scope="col">Player</th>
+                    <th scope="col">Country</th>
+                    <th scope="col">Tackles</th>
+                    <th scope="col">games played</th>
+
+                </tr>
+                </thead>
+                <tbody>
+                <tr data-team="Wales">
+                    <th scope="row">1</th>
+                    <th>Alun Wyn Jones</th>
+                    <th>Wales</th>
+                    <th data-tackles="752">752</th>
+                    <th data-games="67">67</th>
+                </tr>
+                <tr  data-team="Wales">
+                    <th scope="row">2</th>
+                    <th>Taulupe Faletau</th>
+                    <th>Wales</th>
+                    <th data-tackles="599">599</th>
+                    <th data-games="53">53</th>
+                </tr>
+                <tr  data-team="Scotland">
+                    <th scope="row">3</th>
+                    <th>Johnny Gray</th>
+                    <th>Scotland</th>
+                    <th data-tackles="592">592</th>
+                    <th data-games="43">43</th>
+                </tr>
+                <tr  data-team="Italy">
+                    <th scope="row">4</th>
+                    <th>Sergio Parisse</th>
+                    <th>Italy</th>
+                    <th data-tackles="540">540</th>
+                    <th data-games="65">65</th>
+                </tr>
+                <tr  data-team="England">
+                    <th scope="row">5</th>
+                    <th>Maro Itoje*</th>
+                    <th>England</th>
+                    <th data-starts="513">513</th>
+                    <th data-games="36">36</th>
+                </tr>
+
+
+
+
+
+                </tbody>
+            </table>
+            <div class="Jones">
+                <h2>Jones:</h2>
+                <video width="600" height="400" controls>
+                    <source src="Jones.mp4" type="video/mp4">
+                </video>
+            </div>
+    </body>
+    </html>

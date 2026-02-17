@@ -1,0 +1,239 @@
+body {
+    background: #f2f2f2;
+    color: #111111;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    background: black;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    padding: 30px 15px;
+}
+
+.navdiv {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.navdiv ul {
+    display: flex;
+    list-style: none;
+    gap: 60px;
+    margin: 0;
+    padding: 0;
+}
+
+.navdiv a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.logoPhoto {
+    height: 80px;
+    width: 120px;
+}
+
+.Scrum {
+    display: flex;
+    gap: 20px;
+    box-sizing: border-box;
+}
+
+.BigSix {
+    display: flex;
+    gap: 20px;
+}
+
+#MFP {
+    flex: 1;
+    min-width: 250px;
+    max-width: 350px;
+    padding: 15px;
+    border: 2px solid black;
+}
+.Tries{
+display: flex;
+    gap: 200px;
+    box-sizing: border-box;
+
+}
+.videoSection {
+    text-align: center;
+    margin-top: 20px;
+}
+.Points{
+display: flex;
+    gap: 200px;
+    box-sizing: border-box;
+    }
+    .Apps{
+    display: flex;
+        gap: 200px;
+        box-sizing: border-box;
+        }
+        .Tackles{
+            display: flex;
+                gap: 200px;
+                box-sizing: border-box;
+                }
+
+table{
+width:200px;
+height:250px
+text-align:left;
+}
+table,th,tr,td{
+border: 1px solid black;
+border-collapse:collapse;
+padding:0.5rem 1rem;
+}
+tbody tr:nth-child(odd){
+ background-color: green;
+
+}
+.IRFU{
+height:120px;
+width:120px;
+}
+.FRFU{
+ height:120px;
+ width:120px;
+ }
+ .FVI{
+ display: flex;
+     gap: 200px;
+     box-sizing: border-box;
+ }
+ .SRFU{
+  height:120px;
+  width:120px;
+  }
+  .ITRFU{
+    height:120px;
+    width:120px;
+    }
+  .ITVS{
+   display: flex;
+       gap: 200px;
+       box-sizing: border-box;
+       }
+       .ERFU{
+         height:120px;
+         width:120px;
+
+         }
+         .WRFU{
+                  height:120px;
+                  width:120px;
+
+                  }
+                  .EVW{
+                     display: flex;
+                         gap: 200px;
+                         box-sizing: border-box;
+                         }
+   .IVIT{
+     display: flex;
+     gap: 200px;
+     box-sizing: border-box;
+    }
+.SVE{
+     display: flex;
+     gap: 200px;
+     box-sizing: border-box;
+    }
+.WVF{
+     display: flex;
+     gap: 200px;
+     box-sizing: border-box;
+    }
+.EVI{
+     display: flex;
+     gap: 200px;
+     box-sizing: border-box;
+    }
+    .WVS{
+         display: flex;
+         gap: 200px;
+         box-sizing: border-box;
+        }
+            .FVIT{
+                 display: flex;
+                 gap: 200px;
+                 box-sizing: border-box;
+
+               }
+ .IVW{
+   display: flex;
+   gap: 200px;
+  box-sizing: border-box;
+                 }
+ .SVF{
+    display: flex;
+    gap: 200px;
+   box-sizing: border-box;
+                  }
+
+ .ITVE{
+    display: flex;
+    gap: 200px;
+   box-sizing: border-box;
+                  }
+  .IVS{
+     display: flex;
+     gap: 200px;
+    box-sizing: border-box;
+                   }
+.WVIT{
+   display: flex;
+   gap: 200px;
+  box-sizing: border-box;
+                 }
+.FVE{
+   display: flex;
+   gap: 200px;
+  box-sizing: border-box;
+                 }
+
+.stand {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    text-align: center;
+}
+.stand td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.stand img {
+    width: 100px;
+    height: 100px;
+}
+.EPhoto{
+width:100%;
+height:600px
+}
+.WPhoto{
+width:100%;
+height:600px
+}
+.FPhoto{
+width:100%;
+height:600px
+}
+.IPhoto{
+width:100%;
+height:600px
+}
+.SPhoto{
+width:100%;
+height:600px
+}
+.ITPhoto{
+width:100%;
+height:600px
+}
